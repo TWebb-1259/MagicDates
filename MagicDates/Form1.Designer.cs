@@ -64,7 +64,7 @@
             // MonthLabel
             // 
             MonthLabel.AutoSize = true;
-            MonthLabel.Location = new Point(113, 85);
+            MonthLabel.Location = new Point(121, 85);
             MonthLabel.Name = "MonthLabel";
             MonthLabel.Size = new Size(55, 20);
             MonthLabel.TabIndex = 3;
@@ -73,7 +73,7 @@
             // DayLabel
             // 
             DayLabel.AutoSize = true;
-            DayLabel.Location = new Point(113, 129);
+            DayLabel.Location = new Point(138, 129);
             DayLabel.Name = "DayLabel";
             DayLabel.Size = new Size(38, 20);
             DayLabel.TabIndex = 4;
@@ -82,11 +82,11 @@
             // YearLabel
             // 
             YearLabel.AutoSize = true;
-            YearLabel.Location = new Point(113, 175);
+            YearLabel.Location = new Point(26, 175);
             YearLabel.Name = "YearLabel";
-            YearLabel.Size = new Size(40, 20);
+            YearLabel.Size = new Size(150, 20);
             YearLabel.TabIndex = 5;
-            YearLabel.Text = "Year:";
+            YearLabel.Text = "Year (Last two digits):";
             // 
             // MagicButton
             // 

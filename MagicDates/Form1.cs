@@ -18,7 +18,7 @@ namespace MagicDates
             int.TryParse(YearTextBox.Text, out year);
                         
 
-            if(month > 0 && month < 12)
+            if(month > 0 && month < 13)
             {
                 if(day > 0 && day < 32)
                 {
